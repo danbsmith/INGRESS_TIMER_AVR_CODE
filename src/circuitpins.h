@@ -29,22 +29,22 @@
  * LED18 ---> PORTD_0
  */
 // Values for DDRx Registers
-#define DIRECTION_A 0x05
+#define DIRECTION_A 0x07
 #define DIRECTION_B 0xFF
 #define DIRECTION_D 0x7F
 
 // At Time 00
-#define BANK_A_00 0x02
+#define BANK_A_00 0x00
 #define BANK_B_00 0x00
 #define BANK_D_00 0x01
 
 // At Time 01
-#define BANK_A_01 0x06
+#define BANK_A_01 0x02
 #define BANK_B_01 0x00
 #define BANK_D_01 0x01
 
 // At Time 02
-#define BANK_A_02 0x07
+#define BANK_A_02 0x03
 #define BANK_B_02 0x00
 #define BANK_D_02 0x01
 
