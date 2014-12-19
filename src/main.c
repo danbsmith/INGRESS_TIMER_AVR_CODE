@@ -240,6 +240,7 @@ void setup() {
 	DDRB = DIRECTION_B;
 	DDRD = DIRECTION_D;
 	setPorts(BANK_B_RESTE, BANK_D_RESTE);
+	PORTC = 0x0F;
 	TCCR1B = CLOCK_SELECT;
 }
 
